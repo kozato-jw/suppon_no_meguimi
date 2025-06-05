@@ -1,5 +1,36 @@
 body {
-	font-family: "";
+	color: #1A1A1A;
+	font-family: "Noto Sans JP", sans-serif;
+	font-weight: 400;
+}
+
+.u-bold {
+	font-weight: 700;
+}
+
+.u-regular {
+	font-weight: 400;
+}
+
+.u-blue {
+	color: #24669a;
+}
+
+.u-pink {
+	color: #f46289;
+}
+
+.u-red {
+	color: #ed1c24;
+}
+
+.u-bg-yellow {
+	background-color: #fff0d6;
+}
+
+.u-spacer {
+	display: block;
+	margin-bottom: 1em;
 }
 
 .u-desktop {
@@ -148,13 +179,71 @@ a {
 .inner {
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
 	width: 100%;
 }
 
-p {
-	color: aqua;
+.intro {
+	line-height: 1.75;
+	text-align: center;
+}
+
+.intro__text-fz19 {
+	font-size: 1.1875rem;
+}
+
+.intro__text:last-of-type {
+	margin-bottom: 3.125rem;
+}
+
+.intro__arrow {
+	display: inline-block;
+	width: 11.6875rem;
+}
+
+.voice {
+	line-height: 1.75;
+	text-align: center;
+}
+
+.voice__inner {
+	border-bottom: 3px solid #d4145a;
+	border-top: 3px solid #d4145a;
+	padding-bottom: 3.125rem;
+	padding-top: 1.5625rem;
+	position: relative;
+}
+
+.voice__inner::before,
+.voice__inner::after {
+	background: linear-gradient(to right, #d4145a 0%, #d4145a 50%, #ffffff 51%, #ffffff 100%) repeat-x left bottom/6px 1px;
+	content: "";
+	height: 1px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.voice__inner::before {
+	top: 0.5rem;
+}
+
+.voice__inner::after {
+	bottom: 0.5rem;
+}
+
+.voice__head-wrapper {
+	align-items: center;
+	display: flex;
+	gap: 1.375rem;
+	justify-content: center;
+	margin-bottom: 2.125rem;
+}
+
+.voice__head {
+	flex-shrink: 0;
+	font-size: 1.1875rem;
 }
 
 @media screen and (min-width: 768px) {
