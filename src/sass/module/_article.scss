@@ -1,0 +1,35 @@
+@use "global" as *;
+
+.article {
+  background-color: #fef9e8;
+  border: 1px dashed #b3b3b3;
+  padding: rem(40) rem(15) rem(58);
+}
+
+.article__inner {}
+
+.article__main-title {
+  font-size: rem(20);
+  line-height: 1.7;
+  margin-bottom: rem(32);
+}
+
+.article__sub-title{
+  margin-bottom: rem(30);
+}
+
+.article_text{
+  text-align: left;
+}
+
+.article_text--mb20{
+  margin-bottom: rem(20);
+}
+
+.article__movie{
+  margin-bottom: rem(26);
+}
+
+.article__movie video {
+  width: 100%;
+}

@@ -1,0 +1,62 @@
+@use "global" as *;
+
+.sns {
+}
+
+.sns__bg{
+  background-image: url(../images/common/pink-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: rem(46);
+    padding-bottom: rem(40);
+    position: relative;
+    margin-bottom: rem(12);
+
+}
+
+.sns__head{
+  // font-size: rem(24);
+  // line-height: rem(63);
+  // color: $white;
+  // font-weight: $medium;
+  // background-image: url(../images/common/gradation.png);
+  // background-repeat: no-repeat;
+  // background-size: contain;
+  // background-position: center center;
+  // width: rem(58);
+  // height: rem(63);
+  // text-align: center;
+  width: rem(58);
+  position: absolute;
+  top: rem(-28);
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+
+
+.sns__inner {
+  background-color: $white;
+  border-radius: rem(10);
+  padding-top: rem(24);
+  padding-bottom: rem(8);
+}
+
+.sns__text{
+  text-align: center;
+  margin-bottom: rem(14);
+}
+
+.sns__text-fz19{
+  font-size: rem(19);
+}
+
+.sns__image {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.sns__small-text{
+  font-size: rem(10);
+  text-align: right;
+}

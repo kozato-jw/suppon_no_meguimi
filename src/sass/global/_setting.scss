@@ -35,6 +35,8 @@ body {
   font-family: $main-font;
   font-weight: $regular;
   color: $black;
+  font-feature-settings: "palt";
+  letter-spacing: 0.05em;
 }
 
 .u-bold{
@@ -45,20 +47,35 @@ body {
   font-weight: $regular;
 }
 
+.u-medium{
+  font-weight: $medium;
+}
+
 .u-blue{
   color: #24669a;
 }
 
+.u-deep-blue{
+  color: #0000ff;
+}
+
 .u-pink{
   color: #f46289;
+}
+.u-dark-pink{
+  color: #ec708c;
 }
 
 .u-red{
   color: #ed1c24;
 }
 
-.u-bg-yellow{
+.u-bg-beige{
   background-color: #fff0d6;
+}
+
+.u-bg-yellow{
+  background-color: #ffff64;
 }
 
 .u-spacer{
