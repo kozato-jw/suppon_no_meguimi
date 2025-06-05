@@ -1,7 +1,9 @@
 body {
+	font-feature-settings: "palt";
 	color: #1A1A1A;
 	font-family: "Noto Sans JP", sans-serif;
 	font-weight: 400;
+	letter-spacing: 0.05em;
 }
 
 .u-bold {
@@ -12,20 +14,36 @@ body {
 	font-weight: 400;
 }
 
+.u-medium {
+	font-weight: 500;
+}
+
 .u-blue {
 	color: #24669a;
+}
+
+.u-deep-blue {
+	color: #0000ff;
 }
 
 .u-pink {
 	color: #f46289;
 }
 
+.u-dark-pink {
+	color: #ec708c;
+}
+
 .u-red {
 	color: #ed1c24;
 }
 
-.u-bg-yellow {
+.u-bg-beige {
 	background-color: #fff0d6;
+}
+
+.u-bg-yellow {
+	background-color: #ffff64;
 }
 
 .u-spacer {
@@ -176,6 +194,54 @@ a {
 	transition: opacity 0.3s;
 }
 
+.l-fv {
+	margin-bottom: 2.25rem;
+}
+
+.l-sns {
+	margin-bottom: 4.625rem;
+}
+
+.l-voice {
+	margin-bottom: 4.25rem;
+}
+
+.l-what {
+	margin-bottom: 4.75rem;
+}
+
+.article {
+	background-color: #fef9e8;
+	border: 1px dashed #b3b3b3;
+	padding: 2.5rem 0.9375rem 3.625rem;
+}
+
+.article__main-title {
+	font-size: 1.25rem;
+	line-height: 1.7;
+	margin-bottom: 2rem;
+}
+
+.article__sub-title {
+	margin-bottom: 1.875rem;
+}
+
+.article_text {
+	text-align: left;
+}
+
+.article_text--mb20 {
+	margin-bottom: 1.25rem;
+}
+
+.article__movie {
+	margin-bottom: 1.625rem;
+}
+
+.article__movie video {
+	width: 100%;
+}
+
 .inner {
 	margin-left: auto;
 	margin-right: auto;
@@ -199,7 +265,52 @@ a {
 
 .intro__arrow {
 	display: inline-block;
+	margin-bottom: 3rem;
 	width: 11.6875rem;
+}
+
+.sns__bg {
+	background-image: url(../images/common/pink-background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 0.75rem;
+	padding-bottom: 2.5rem;
+	padding-top: 2.875rem;
+	position: relative;
+}
+
+.sns__head {
+	left: 50%;
+	position: absolute;
+	top: -1.75rem;
+	transform: translateX(-50%);
+	width: 3.625rem;
+}
+
+.sns__inner {
+	background-color: #fff;
+	border-radius: 0.625rem;
+	padding-bottom: 0.5rem;
+	padding-top: 1.5rem;
+}
+
+.sns__text {
+	margin-bottom: 0.875rem;
+	text-align: center;
+}
+
+.sns__text-fz19 {
+	font-size: 1.1875rem;
+}
+
+.sns__image {
+	margin: 0 auto;
+	width: 95%;
+}
+
+.sns__small-text {
+	font-size: 0.625rem;
+	text-align: right;
 }
 
 .voice {
@@ -210,6 +321,7 @@ a {
 .voice__inner {
 	border-bottom: 3px solid #d4145a;
 	border-top: 3px solid #d4145a;
+	margin-bottom: 5.5rem;
 	padding-bottom: 3.125rem;
 	padding-top: 1.5625rem;
 	position: relative;
@@ -241,9 +353,98 @@ a {
 	margin-bottom: 2.125rem;
 }
 
+.voice__image--mb80 {
+	margin-bottom: 5rem;
+}
+
+.voice__image--mb60 {
+	margin-bottom: 3.75rem;
+}
+
 .voice__head {
 	flex-shrink: 0;
 	font-size: 1.1875rem;
+}
+
+.voice__text--mb66 {
+	margin-bottom: 4.125rem;
+}
+
+.voice__text--mb60 {
+	margin-bottom: 3.75rem;
+}
+
+.voice__text--mb88 {
+	margin-bottom: 5.5rem;
+}
+
+.voice__text--mb36 {
+	margin-bottom: 2.25rem;
+}
+
+.voice__text--mb30 {
+	margin-bottom: 1.875rem;
+}
+
+.voice__text--mb68 {
+	margin-bottom: 4.25rem;
+}
+
+.voice__text-border {
+	border-bottom: 1px solid #1A1A1A;
+}
+
+.voice__text-fz19 {
+	font-size: 1.1875rem;
+}
+
+.voice__arrow {
+	display: inline-block;
+	margin-bottom: 3rem;
+	width: 11.6875rem;
+}
+
+.voice__article {
+	margin-bottom: 3rem;
+}
+
+.what__title {
+	color: #ffff64;
+	font-size: 1.9375rem;
+	margin-bottom: 5.375rem;
+	position: relative;
+	text-align: center;
+}
+
+.what__title::before {
+	background-image: url(../images/common/suppon-speech-bable.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: "";
+	display: inline-block;
+	height: 7.875rem;
+	left: 0;
+	position: absolute;
+	top: -50%;
+	width: 100%;
+	z-index: -1;
+}
+
+.what__image-record {
+	margin-bottom: 1.75rem;
+}
+
+.what__image-cosme {
+	margin-bottom: 0.75rem;
+}
+
+.what__small-text {
+	font-size: 0.625rem;
+	text-align: right;
+}
+
+.yamasa__text {
+	text-align: center;
 }
 
 @media screen and (min-width: 768px) {

@@ -11,6 +11,7 @@
   position: relative;
   padding-top: rem(25);
   padding-bottom: rem(50);
+  margin-bottom: rem(88);
 }
 
 .voice__inner::before,
@@ -47,9 +48,58 @@
 
 .voice__image {}
 
+.voice__image--mb80{
+  margin-bottom: rem(80);
+}
+
+.voice__image--mb60{
+  margin-bottom: rem(60);
+}
+
 .voice__head {
   flex-shrink: 0;
   font-size: rem(19);
 }
 
 .voice__text {}
+
+
+.voice__text--mb66{
+  margin-bottom: rem(66); 
+}
+
+.voice__text--mb60{
+  margin-bottom: rem(60);
+}
+.voice__text--mb88{
+  margin-bottom: rem(88);
+}
+.voice__text--mb36{
+  margin-bottom: rem(36);
+}
+.voice__text--mb30{
+  margin-bottom: rem(30);
+}
+.voice__text--mb68{
+  margin-bottom: rem(68);
+}
+
+
+.voice__text-border {
+  border-bottom: 1px solid $black;
+}
+
+.voice__text-fz19 {
+  font-size: rem(19);
+}
+
+.voice__arrow {
+  width: rem(187);
+  display: inline-block;
+  margin-bottom: rem(48);
+}
+
+
+.voice__article{
+  margin-bottom: rem(48);
+}
