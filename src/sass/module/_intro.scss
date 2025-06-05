@@ -1,0 +1,19 @@
+@use "global" as *;
+
+.intro{
+  text-align: center;
+  line-height: 1.75;
+}
+
+.intro__text-fz19{
+  font-size: rem(19);
+}
+
+.intro__text:last-of-type{
+  margin-bottom: rem(50);
+}
+
+.intro__arrow{
+  width: rem(187);
+  display: inline-block;
+}

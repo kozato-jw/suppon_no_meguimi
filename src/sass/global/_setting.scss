@@ -7,23 +7,18 @@ $inner: 1100px;
 
 // 余白
 $padding-pc: 25px;
-$padding-sp: 20px;
+$padding-sp: 15px;
 
 ////////////////////
 // フォント設定
 ////////////////////
 
-$base-font-family: "";
-$second-font-family: "";
-// ※検証ツールでしっかり反映されているか確認する
-
-body {
-  font-family: $base-font-family;
-}
+$main-font: "Noto Sans JP", sans-serif;
 
 // フォントウェイト
-$regular: 300;
-$normal: 400;
+$regular: 400;
+$medium: 500;
+$semibold: 600;
 $bold: 700;
 
 ////////////////////
@@ -31,5 +26,42 @@ $bold: 700;
 ////////////////////
 
 //色指定（共通性のあるものは出来る限り指定すると良い）
-$black: #111;
+$black: #1A1A1A;
 $white: #fff;
+
+
+
+body {
+  font-family: $main-font;
+  font-weight: $regular;
+  color: $black;
+}
+
+.u-bold{
+  font-weight: $bold;
+}
+
+.u-regular{
+  font-weight: $regular;
+}
+
+.u-blue{
+  color: #24669a;
+}
+
+.u-pink{
+  color: #f46289;
+}
+
+.u-red{
+  color: #ed1c24;
+}
+
+.u-bg-yellow{
+  background-color: #fff0d6;
+}
+
+.u-spacer{
+  margin-bottom: 1em;
+  display: block;
+}
