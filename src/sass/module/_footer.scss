@@ -1,0 +1,16 @@
+@use "global" as *;
+
+.footer{
+  background-color: #d4145a;
+  padding: rem(12) rem(4);
+}
+
+.footer__copyright{
+  font-size: rem(12);
+  color: $white;
+  font-weight: $medium;
+  letter-spacing: 0;
+  text-align: center;
+  display: block;
+  
+}

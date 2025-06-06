@@ -1,0 +1,70 @@
+@use "global" as *;
+
+.okami {}
+
+.okami__intro {
+  text-align: center;
+  margin-bottom: rem(72);
+  font-size: rem(14);
+}
+
+.okami__intro-fz19{
+  font-size: rem(19);
+}
+
+.okami__intro-fz16 {
+  font-size: rem(16);
+}
+
+
+.okami__inner {
+  background-image: url(../images/common/bg-okami.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  // padding-top: rem(46);
+  padding-bottom: rem(52);
+  // position: relative;
+  // margin-bottom: rem(12);
+}
+
+.okami__title {
+  margin-bottom: rem(36);
+}
+
+.okami__title-sub {
+  // width: rem(250);
+  margin: 0 auto;
+}
+.okami__title-sub:first-of-type {
+  width: rem(250);
+  margin-bottom: rem(26);
+  // margin: 0 auto;
+}
+.okami__title-sub:last-of-type {
+  width: rem(280);
+  margin-bottom: rem(37);
+  // margin: 0 auto;
+}
+
+.okami__image:first-of-type {
+  margin-bottom: rem(42);
+}
+.okami__image:last-of-type {
+  margin-bottom: rem(50);
+}
+
+.okami__question{
+  font-size: rem(14);
+  margin-bottom: rem(26);
+  line-height: 2;
+}
+
+.okami__answer {
+  font-size: rem(14);
+  margin-bottom: rem(52);
+  line-height: 2;
+}
+
+.okami__answer:last-of-type{
+  margin-bottom: 0;
+}

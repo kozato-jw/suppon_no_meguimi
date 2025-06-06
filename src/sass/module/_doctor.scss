@@ -1,0 +1,73 @@
+@use "global" as *;
+
+.doctor {}
+
+.doctor__title {
+  margin-bottom: rem(42);
+}
+
+.doctor__text {
+  text-align: center;
+  margin-bottom: rem(54);
+}
+
+.doctor__text-fz19{
+  font-size: rem(19);
+}
+
+
+.doctor__text-fz19.u-red.u-bold {}
+
+.doctor__box {
+  background-image: url(../images/common/silver.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: rem(4);
+  padding-bottom: rem(10);
+}
+
+
+.doctor__head {
+  margin-bottom: rem(12);
+}
+
+.doctor__review {
+  font-size: rem(14);
+  font-weight: $medium;
+  margin-bottom: rem(12);
+}
+
+.doctor__review-purple {
+  color: #9e005d;
+}
+
+.doctor__prof {
+  background-color: $white;
+  padding: rem(8) rem(10) rem(14);
+  box-shadow: 3px 3px 3px 0px #0000004D;
+  margin-bottom: rem(12);
+}
+
+.doctor__prof-title {
+  background-color: #9e005d;
+  color: $white;
+  display: inline-block;
+  font-size: rem(14);
+  font-weight: $medium;
+  line-height: rem(24);
+  height: rem(24);
+  padding: 0 rem(16);
+  margin-bottom: rem(10);
+}
+
+.doctor__prof-text {
+  line-height: 2;
+  font-size: rem(12);
+}
+
+.doctor__small-text {
+  font-size: rem(10);
+  // line-height: 2.8;
+  letter-spacing: 0;
+  text-align: center;
+}

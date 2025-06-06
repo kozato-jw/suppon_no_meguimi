@@ -7,13 +7,45 @@
   text-align: center;
 }
 
-
-
-
 .yamasa__text{}
 
-.yamasa__image-shop {}
+.yamasa__text--fz14{
+  font-size: rem(14);
+  line-height: 2;
+}
 
-.yamasa__image-logo {}
+.yamasa__text-small{
+  font-size: rem(10);
+  line-height: 2.8;
+  margin-bottom: rem(24);
+  display: inline-block;
+}
+
+.yamasa__text-fz19{
+  font-size: rem(19);
+}
+
+.yamasa__text-fz16{
+  font-size: rem(16);
+}
+.yamasa__text--mb26{
+  margin-bottom: rem(26);
+}
+
+.yamasa__text--mb28{
+  margin-bottom: rem(28);
+}
+
+.yamasa__text--mb68{
+  margin-bottom: rem(68);
+}
+.yamasa__image-shop {
+  margin-bottom: rem(32);
+}
+
+.yamasa__image-logo {
+  width: rem(167);
+  margin: 0 auto rem(52);
+}
 
 .yamasa__image_tabelog {}

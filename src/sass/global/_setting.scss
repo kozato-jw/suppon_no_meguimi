@@ -37,6 +37,7 @@ body {
   color: $black;
   font-feature-settings: "palt";
   letter-spacing: 0.05em;
+  line-height: 1.75 !important;
 }
 
 .u-bold{
@@ -65,6 +66,9 @@ body {
 .u-dark-pink{
   color: #ec708c;
 }
+.u-deep-pink{
+  color: #ed1e79;
+}
 
 .u-red{
   color: #ed1c24;
@@ -78,6 +82,9 @@ body {
   background-color: #ffff64;
 }
 
+.u-border-yellow{
+  background: linear-gradient(transparent 65%, #ffff64 65%, #ffff64 98%, transparent 98%)
+}
 .u-spacer{
   margin-bottom: 1em;
   display: block;
