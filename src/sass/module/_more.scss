@@ -1,0 +1,47 @@
+@use "global" as *;
+
+.more {}
+
+.more__bg {
+  background-image: url(../images/common/gold.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: rem(42);
+  padding-bottom: rem(28);
+  position: relative;
+  margin-bottom: rem(12);
+}
+
+.more__head {
+  width: rem(58);
+  position: absolute;
+  top: rem(-28);
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.more__inner {
+  background-color: $white;
+  border-radius: rem(10);
+  padding-top: rem(42);
+  padding-bottom: rem(22);
+}
+
+.more__text{
+  text-align: center;
+  line-height: 2;
+  margin-bottom: rem(28);
+}
+
+.more__text--fz14 {
+  font-size: rem(14);
+}
+
+.more__text-fz16{
+  font-size: rem(16);
+}
+
+.more__image {
+  width: 93%;
+  margin: 0 auto;
+}

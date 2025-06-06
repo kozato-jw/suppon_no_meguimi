@@ -1,0 +1,34 @@
+@use "global" as *;
+
+.bimajyo {}
+
+
+.bimajyo__text {
+  text-align: center;
+  line-height: 2;
+  font-size: rem(14);
+}
+
+.bimajyo__text--mb40{
+  margin-bottom: rem(40);
+}
+
+.bimajyo__image {}
+
+.bimajyo__text-small {
+  font-size: rem(10);
+  text-align: right;
+  line-height: 2.3;
+}
+
+
+.bimajyo__text-fz19 {
+  font-size: rem(19);
+}
+.bimajyo__text-fz16 {
+  font-size: rem(16);
+}
+
+.bimajyo__text-border {
+  border-bottom: 1px solid $black;
+}

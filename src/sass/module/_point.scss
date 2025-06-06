@@ -1,0 +1,64 @@
+@use "global" as *;
+
+.point {}
+
+.point__title {
+  margin-bottom: rem(60);
+}
+
+
+
+.point__intro {
+  text-align: center;
+  margin-bottom: rem(54);
+}
+
+.point__intro-fz19{
+  font-size: rem(19);
+}
+
+
+
+
+.point__text-border {
+  border-bottom: 1px solid $black;
+}
+
+
+
+.point__item {
+  margin-bottom: rem(60);
+}
+
+.point__title-image {
+  margin-bottom: rem(40);
+}
+
+.point__text {
+  text-align: center;
+  margin-bottom: rem(46);
+}
+
+.point__text-fz19{
+  font-size: rem(19);
+}
+
+.point__movie {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+
+.point__movie iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.point__image--mb90{
+  margin-bottom: rem(90);
+}

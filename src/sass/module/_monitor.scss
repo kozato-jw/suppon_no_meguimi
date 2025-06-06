@@ -1,0 +1,33 @@
+@use "global" as *;
+
+.monitor {}
+
+.monitor__text {
+  font-size: rem(14);
+  text-align: center;
+  margin-bottom: rem(52);
+}
+.monitor__text-fz19 {
+  font-size: rem(19);
+}
+
+
+
+
+.monitor__cta-text {
+  font-size: rem(22);
+  text-align: center;
+}
+
+
+
+
+
+.monitor__cta {}
+
+.monitor__cta-text-small {
+  font-size: rem(10);
+  line-height: 2.8;
+  text-align: right;
+  margin-top: rem(-10);
+}
