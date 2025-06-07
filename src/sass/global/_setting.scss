@@ -76,16 +76,26 @@ body {
 
 .u-bg-beige{
   background-color: #fff0d6;
+  display: inline-block;
+  line-height: 1.58;
 }
 
 .u-bg-yellow{
   background-color: #ffff64;
+  display: inline-block;
+  line-height: 1.58;
 }
 
 .u-border-yellow{
   background: linear-gradient(transparent 65%, #ffff64 65%, #ffff64 98%, transparent 98%)
 }
+
 .u-spacer{
-  margin-bottom: 1em;
+  height: calc(1em * 1.75);
+  display: block;
+}
+
+.u-spacer-big{
+  height: calc(1em * 2);
   display: block;
 }

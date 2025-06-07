@@ -48,10 +48,14 @@ body {
 
 .u-bg-beige {
 	background-color: #fff0d6;
+	display: inline-block;
+	line-height: 1.58;
 }
 
 .u-bg-yellow {
 	background-color: #ffff64;
+	display: inline-block;
+	line-height: 1.58;
 }
 
 .u-border-yellow {
@@ -60,7 +64,12 @@ body {
 
 .u-spacer {
 	display: block;
-	margin-bottom: 1em;
+	height: 1.75em;
+}
+
+.u-spacer-big {
+	display: block;
+	height: 2em;
 }
 
 .u-desktop {
@@ -210,6 +219,10 @@ a {
 	margin-bottom: 3.625rem;
 }
 
+.l-close {
+	margin-bottom: 2.125rem;
+}
+
 .l-doctor {
 	margin-bottom: 3.75rem;
 }
@@ -312,6 +325,36 @@ a {
 
 .bimajyo__text-border {
 	border-bottom: 1px solid #1A1A1A;
+}
+
+.close__title {
+	box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.3019607843);
+	margin-bottom: 3.75rem;
+}
+
+.close__text {
+	font-size: 0.875rem;
+	line-height: 2;
+	margin-bottom: 2.375rem;
+	text-align: center;
+}
+
+.close__text-fz19 {
+	font-size: 1.1875rem;
+}
+
+.close__text-fz16 {
+	font-size: 1rem;
+}
+
+.close__image {
+	margin-bottom: 1.5rem;
+}
+
+.close__cta-text-small {
+	display: flex;
+	font-size: 0.625rem;
+	justify-content: flex-end;
 }
 
 .doctor__title {
@@ -468,13 +511,10 @@ a {
 }
 
 .more__text {
+	font-size: 0.875rem;
 	line-height: 2;
 	margin-bottom: 1.75rem;
 	text-align: center;
-}
-
-.more__text--fz14 {
-	font-size: 0.875rem;
 }
 
 .more__text-fz16 {
@@ -640,6 +680,7 @@ a {
 	font-size: 0.875rem;
 	line-height: 2;
 	margin-bottom: 2.25rem;
+	text-align: justify;
 }
 
 .report__card-text-small {
@@ -931,12 +972,12 @@ a {
 }
 
 .yamasa__text {
+	font-size: 0.875rem;
 	text-align: center;
 }
 
-.yamasa__text--fz14 {
-	font-size: 0.875rem;
-	line-height: 2;
+.yamasa__text--fz16 {
+	font-size: 1rem;
 }
 
 .yamasa__text-small {
