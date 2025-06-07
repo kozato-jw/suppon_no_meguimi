@@ -5,14 +5,17 @@
 
 .yamasa__text {
   text-align: center;
-}
-
-.yamasa__text{}
-
-.yamasa__text--fz14{
   font-size: rem(14);
-  line-height: 2;
 }
+
+.yamasa__text--fz16{
+  font-size: rem(16);
+}
+
+// .yamasa__text--fz14{
+//   font-size: rem(14);
+//   line-height: 2;
+// }
 
 .yamasa__text-small{
   font-size: rem(10);

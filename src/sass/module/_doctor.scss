@@ -1,7 +1,5 @@
 @use "global" as *;
 
-.doctor {}
-
 .doctor__title {
   margin-bottom: rem(42);
 }
@@ -15,8 +13,6 @@
   font-size: rem(19);
 }
 
-
-.doctor__text-fz19.u-red.u-bold {}
 
 .doctor__box {
   background-image: url(../images/common/silver.png);
@@ -67,7 +63,6 @@
 
 .doctor__small-text {
   font-size: rem(10);
-  // line-height: 2.8;
   letter-spacing: 0;
   text-align: center;
 }
