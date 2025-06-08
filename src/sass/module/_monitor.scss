@@ -5,7 +5,7 @@
 .monitor__text {
   font-size: rem(14);
   text-align: center;
-  margin-bottom: rem(52);
+  margin-bottom: rem(54);
 }
 .monitor__text-fz19 {
   font-size: rem(19);
@@ -23,7 +23,9 @@
 
 
 
-.monitor__cta {}
+.monitor__cta {
+  margin-top: rem(-8);
+}
 
 .monitor__cta-text-small {
   font-size: rem(10);

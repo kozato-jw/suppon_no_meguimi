@@ -5,7 +5,7 @@
 
 .bimajyo__text {
   text-align: center;
-  line-height: 2;
+  line-height: 1.9;
   font-size: rem(14);
 }
 
@@ -13,7 +13,9 @@
   margin-bottom: rem(40);
 }
 
-.bimajyo__image {}
+.bimajyo__image {
+  margin-bottom: rem(32);
+}
 
 .bimajyo__text-small {
   font-size: rem(10);

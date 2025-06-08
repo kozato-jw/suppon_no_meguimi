@@ -12,24 +12,28 @@
 }
 
 .user__head {
-  margin-bottom: rem(20);
+  margin-bottom: rem(10);
 }
 
 .user__bg-white{
   background-color: $white;
-  padding: rem(48) rem(16) rem(28);
+  padding: rem(52) rem(16) rem(28);
 }
 
 .user__title{
   width: rem(260);
-  margin: 0 auto rem(30);
+  margin: 0 auto rem(25);
 }
 
 .user__review{
   font-size: rem(14);
   line-height: 2;
   text-align: justify;
-  margin-bottom: rem(40);
+  margin-bottom: rem(31);
+}
+
+.user__review--last {
+  margin-bottom: rem(21);
 }
 
 .user__text-fz19{
@@ -39,20 +43,19 @@
 
 
 .user__image {
-  margin-right: rem(20);
-  margin-bottom: rem(42);
+  margin-right: rem(22);
+  margin-bottom: rem(46);
 }
 
 .user__title-sub {
   width: rem(252);
-  margin: 0 auto rem(28);
+  margin: 0 auto rem(20);
 }
 
 .user__review-small {
   font-size: rem(10);
-  // display: inline-block;
   display: flex;
   justify-content: flex-end;
-  // margin-left: auto;
   line-height: 1.5;
+  letter-spacing: 0.06em;
 }
