@@ -23,6 +23,9 @@
   background-size: cover;
   padding-top: rem(4);
   padding-bottom: rem(10);
+  @include mq(md) {
+  background-image: url(../images/common/silver-pc.jpg);
+  }
 }
 
 .doctor__head {
