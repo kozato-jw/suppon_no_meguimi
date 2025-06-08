@@ -3,7 +3,7 @@
 .point {}
 
 .point__title {
-  margin-bottom: rem(60);
+  margin-bottom: rem(39);
 }
 
 
@@ -30,17 +30,22 @@
   margin-bottom: rem(60);
 }
 
+.point__item--movie{
+  margin-bottom: rem(113);
+}
+
 .point__title-image {
   margin-bottom: rem(40);
 }
 
 .point__text {
   text-align: center;
-  margin-bottom: rem(46);
+  margin-bottom: rem(50);
 }
 
 .point__text-fz19{
   font-size: rem(19);
+  line-height: 1;
 }
 
 .point__movie {

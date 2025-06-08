@@ -7,17 +7,17 @@
   background-image: url(../images/common/pink-background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: rem(46);
+    padding-top: rem(56);
     padding-bottom: rem(40);
     position: relative;
-    margin-bottom: rem(12);
+    margin-bottom: rem(8);
 
 }
 
 .sns__head{
-  width: rem(58);
+  width: rem(68);
   position: absolute;
-  top: rem(-28);
+  top: rem(-22);
   left: 50%;
   transform: translateX(-50%)
 }
@@ -27,13 +27,15 @@
 .sns__inner {
   background-color: $white;
   border-radius: rem(10);
-  padding-top: rem(24);
+  padding-top: rem(21);
   padding-bottom: rem(8);
 }
 
 .sns__text{
   text-align: center;
   margin-bottom: rem(14);
+  font-size: rem(14);
+  line-height: 1.7;
 }
 
 .sns__text-fz19{

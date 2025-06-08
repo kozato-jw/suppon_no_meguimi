@@ -20,7 +20,7 @@
 .yamasa__text-small{
   font-size: rem(10);
   line-height: 2.8;
-  margin-bottom: rem(24);
+  // margin-bottom: rem(24);
   display: inline-block;
 }
 
@@ -31,8 +31,8 @@
 .yamasa__text-fz16{
   font-size: rem(16);
 }
-.yamasa__text--mb26{
-  margin-bottom: rem(26);
+.yamasa__text--mb14{
+  margin-bottom: rem(14);
 }
 
 .yamasa__text--mb28{
@@ -48,7 +48,11 @@
 
 .yamasa__image-logo {
   width: rem(167);
-  margin: 0 auto rem(52);
+  margin: 0 auto rem(49);
 }
 
 .yamasa__image_tabelog {}
+
+.yamasa__text--lh{
+  line-height: 1.9;
+}

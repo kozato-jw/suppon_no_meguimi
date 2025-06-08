@@ -43,14 +43,16 @@
 
 .week__text-flex{
   flex-shrink: 0;
+  margin-top: rem(8);
 }
 
 .week__image {
-  
+  width: rem(122);
 }
 
 .week__text {
   text-align: center;
+  line-height: 1.5;
 }
 
 .week__text-fz19{
