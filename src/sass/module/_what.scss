@@ -3,27 +3,28 @@
 .what {}
 
 .what__title{
-  font-size: rem(31);
-  position: relative;
-  text-align: center;
-  color: #ffff64;
-  margin-bottom: rem(86);
+  // font-size: rem(31);
+  // position: relative;
+  // text-align: center;
+  // color: #ffff64;
+  margin-bottom: rem(24);
 
 }
 
-.what__title::before{
-  content: "";
-  background-image: url(../images/common/suppon-speech-bable.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  height: rem(126);
-  position: absolute;
-  display: inline-block;
-  z-index: -1;
-  left: 0;
-  top: -50%;
-}
+// .what__title::before{
+//   content: "";
+//   background-image: url(../images/common/suppon-speech-bable.png);
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   width: 100%;
+//   height: rem(126);
+//   position: absolute;
+//   display: inline-block;
+//   z-index: -1;
+//   left: 0;
+//   top: -50%;
+//   background-position: bottom center;
+// }
 
 .what__image-record {
   margin-bottom: rem(28);
