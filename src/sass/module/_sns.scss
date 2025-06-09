@@ -33,7 +33,7 @@
   padding-top: rem(21);
   padding-bottom: rem(8);
   @include mq(md) {
-        padding-top: rem(82);
+        padding-top: rem(70);
           padding-bottom: rem(22);
   }
 }
@@ -45,7 +45,7 @@
   line-height: 1.7;
   @include mq(md) {
       font-size: rem(18);
-      margin-bottom: rem(22);
+      margin-bottom: rem(6);
   }
 }
 

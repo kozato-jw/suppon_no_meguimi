@@ -6,6 +6,7 @@
   margin-bottom: rem(54);
   @include mq(md) {
       font-size: rem(18);
+      margin-bottom: rem(36);
   }
 }
 

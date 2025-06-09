@@ -15,6 +15,9 @@
 
 .intro__text:last-of-type{
   margin-bottom: rem(50);
+  @include mq(md) {
+      margin-bottom: rem(70);
+  }
 }
 
 .intro__arrow{

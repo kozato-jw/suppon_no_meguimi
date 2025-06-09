@@ -2,9 +2,11 @@
 
 .container{
   font-size: rem(16);
+  max-width: 630px;
+  margin: 0 auto;
   @include mq(md) {
-      max-width: 680px;
-      margin: 0 auto;
       font-size: rem(18);
+      // max-width: 680px;
+      // padding: 0 rem(25);
   }
 }

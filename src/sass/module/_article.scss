@@ -5,7 +5,7 @@
   padding: rem(32) rem(15) rem(52);
   position: relative;
   @include mq(md) {
-  padding: rem(48) rem(18) rem(52);
+  padding: rem(48) rem(18) rem(48);
   }
 }
 
@@ -66,17 +66,23 @@
   @include mq(md) {
       font-size: rem(23);
       line-height: 1.56;
-  margin-bottom: rem(62);
+  margin-bottom: rem(20);
   }
 }
 
 .article__sub-title{
   margin-bottom: rem(28);
+  @include mq(md) {
+      margin-bottom: rem(62);
+  }
 }
 
 .article_text{
   // text-align: left;
   text-align: justify;
+  @include mq(md) {
+      line-height: 2;
+  }
 }
 
 .article_text--mb20{

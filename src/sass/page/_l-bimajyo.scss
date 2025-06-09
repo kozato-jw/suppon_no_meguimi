@@ -2,4 +2,7 @@
 
 .l-bimajyo{
   margin-bottom: rem(58);
+  @include mq(md) {
+      margin-bottom: rem(52);
+  }
 }

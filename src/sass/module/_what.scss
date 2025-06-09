@@ -2,6 +2,12 @@
 
 .what {}
 
+.what .inner {
+  @include mq(md) {
+    padding: 0;
+  }
+}
+
 .what__title{
   // font-size: rem(31);
   // position: relative;
@@ -9,7 +15,7 @@
   // color: #ffff64;
   margin-bottom: rem(24);
   @include mq(md) {
-      margin-bottom: rem(12);
+      margin-bottom: rem(40);
   }
 
 }
