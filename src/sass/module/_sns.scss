@@ -1,16 +1,17 @@
 @use "global" as *;
-
-.sns {
-}
-
 .sns__bg{
   background-image: url(../images/common/pink-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: rem(56);
     padding-bottom: rem(40);
-    position: relative;
     margin-bottom: rem(8);
+    position: relative;
+    @include mq(md) {
+      padding-top: rem(24);
+      padding-bottom: rem(22);
+      margin-bottom: rem(18);
+    }
 
 }
 
@@ -19,16 +20,22 @@
   position: absolute;
   top: rem(-22);
   left: 50%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
+  @include mq(md) {
+      width: rem(78);
+      top: rem(-8);
+  }
 }
-
-
 
 .sns__inner {
   background-color: $white;
   border-radius: rem(10);
   padding-top: rem(21);
   padding-bottom: rem(8);
+  @include mq(md) {
+        padding-top: rem(82);
+          padding-bottom: rem(22);
+  }
 }
 
 .sns__text{
@@ -36,18 +43,31 @@
   margin-bottom: rem(14);
   font-size: rem(14);
   line-height: 1.7;
+  @include mq(md) {
+      font-size: rem(18);
+      margin-bottom: rem(22);
+  }
 }
 
 .sns__text-fz19{
   font-size: rem(19);
+  @include mq(md) {
+      font-size: rem(22);
+  }
 }
 
 .sns__image {
   width: 95%;
   margin: 0 auto;
+  @include mq(md) {
+      width: 73%;
+  }
 }
 
 .sns__small-text{
   font-size: rem(10);
   text-align: right;
+  @include mq(md) {
+      font-size: rem(12);
+  }
 }

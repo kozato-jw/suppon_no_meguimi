@@ -8,6 +8,14 @@
   position: relative;
   padding-top: rem(28);
   padding-bottom: rem(30);
+    @include mq(md) {
+        background-color: #fdf8f9;
+        border-top: none;
+        border-bottom: 4px solid #d4145a;
+        padding-top: rem(20);
+        margin-bottom: rem(58);
+        padding-bottom: rem(44);
+      }
 }
 
 .week__inner::before,
@@ -23,14 +31,29 @@
       #d4145a 50%,
       #ffffff 51%,
       #ffffff 100%) repeat-x left bottom/6px 1px;
+  @include mq(md) {
+      height: 2px;
+      background:
+        linear-gradient(to right,
+          #d4145a 0%,
+          #d4145a 50%,
+          #ffffff 51%,
+          #ffffff 100%) repeat-x left bottom/12px 2px;
+    }
 }
 
 .week__inner::before {
   top: rem(8);
+  @include mq(md) {
+      top: 0;
+  }
 }
 
 .week__inner::after {
   bottom: rem(8);
+  @include mq(md) {
+      bottom: rem(6);
+  }
 }
 
 .week__flex {
@@ -57,6 +80,9 @@
 
 .week__text-fz19{
   font-size: rem(19);
+  @include mq(md) {
+      font-size: rem(22);
+  }
 }
 
 .week__text-small {
@@ -64,4 +90,8 @@
   line-height: 2.8;
   margin-top: rem(12);
   display: inline-block;
+  @include mq(md) {
+      font-size: rem(12);
+      line-height: 2.67;
+  }
 }

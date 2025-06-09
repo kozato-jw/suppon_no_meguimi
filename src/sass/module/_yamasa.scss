@@ -1,41 +1,51 @@
 @use "global" as *;
 
-.yamasa {}
-
-
 .yamasa__text {
   text-align: center;
   font-size: rem(14);
+  @include mq(md) {
+      font-size: rem(18);
+  }
 }
 
 .yamasa__text--fz16{
   font-size: rem(16);
+  @include mq(md) {
+      font-size: rem(18);
+  }
 }
-
-// .yamasa__text--fz14{
-//   font-size: rem(14);
-//   line-height: 2;
-// }
 
 .yamasa__text-small{
   font-size: rem(10);
   line-height: 2.8;
-  // margin-bottom: rem(24);
   display: inline-block;
+  @include mq(md) {
+      font-size: rem(18);
+      line-height: 1.78;
+  }
 }
 
 .yamasa__text-fz19{
   font-size: rem(19);
+  @include mq(md) {
+      font-size: rem(22);
+  }
 }
 
 .yamasa__text-fz16{
   font-size: rem(16);
+  @include mq(md) {
+      font-size: rem(22);
+  }
 }
 .yamasa__text--mb14{
   margin-bottom: rem(14);
 }
 
 .yamasa__text--mb28{
+  @include mq(md) {
+      margin-bottom: rem(78);
+  }
   margin-bottom: rem(28);
 }
 
@@ -51,7 +61,12 @@
   margin: 0 auto rem(49);
 }
 
-.yamasa__image_tabelog {}
+.yamasa__image_tabelog {
+  @include mq(md) {
+      width: rem(498);
+      margin: 0 auto;
+  }
+}
 
 .yamasa__text--lh{
   line-height: 1.9;

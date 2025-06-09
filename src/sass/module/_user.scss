@@ -18,11 +18,20 @@
 .user__bg-white{
   background-color: $white;
   padding: rem(52) rem(16) rem(28);
+  box-shadow: 2px 2px 10px 0px #00000033;
+  @include mq(md) {
+  padding: rem(54) rem(37) rem(58);
+
+  }
 }
 
 .user__title{
   width: rem(260);
   margin: 0 auto rem(25);
+  @include mq(md) {
+      width: rem(425);
+  margin: 0 auto rem(40);
+  }
 }
 
 .user__review{
@@ -30,6 +39,11 @@
   line-height: 2;
   text-align: justify;
   margin-bottom: rem(31);
+  @include mq(md) {
+      font-size: rem(18);
+      line-height: 2.7;
+      margin-bottom: rem(45);
+  }
 }
 
 .user__review--last {
@@ -38,6 +52,9 @@
 
 .user__text-fz19{
   font-size: rem(19);
+  @include mq(md) {
+      font-size: rem(22);
+  }
 }
 
 
@@ -45,11 +62,19 @@
 .user__image {
   margin-right: rem(22);
   margin-bottom: rem(46);
+  @include mq(md) {
+      margin-bottom: rem(52);
+  margin-right: rem(42);
+  }
 }
 
 .user__title-sub {
   width: rem(252);
   margin: 0 auto rem(20);
+  @include mq(md) {
+      width: rem(318);
+  margin: 0 auto rem(32);
+  }
 }
 
 .user__review-small {
@@ -58,4 +83,7 @@
   justify-content: flex-end;
   line-height: 1.5;
   letter-spacing: 0.06em;
+  @include mq(md) {
+      font-size: rem(12);
+  }
 }

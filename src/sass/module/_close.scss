@@ -12,27 +12,47 @@
   line-height: 2;
   font-size: rem(14);
   margin-bottom: rem(38);
+  @include mq(md) {
+      font-size: rem(18);
+      margin-bottom: rem(80);
+  }
 }
 
 .close__text-fz19{
   font-size: rem(19);
   line-height: 1;
+  @include mq(md) {
+      font-size: rem(22);
+      line-height: 1.75;
+  }
 }
 .close__text-fz16{
   font-size: rem(16);
+  @include mq(md) {
+      font-size: rem(22);
+  }
 }
 
 .close__image {
   margin-bottom: rem(24);
+  @include mq(md) {
+      margin-bottom: rem(48);
+  }
 }
 
 .close__cta {
   max-width: rem(400);
   margin: 0 auto;
+    @include mq(md) {
+        max-width: rem(426);
+      }
 }
 
 .close__cta-text-small {
   font-size: rem(10);
   display: flex;
   justify-content: flex-end;
+  @include mq(md) {
+      font-size: rem(12);
+  }
 }

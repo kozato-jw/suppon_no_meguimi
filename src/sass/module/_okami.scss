@@ -1,19 +1,26 @@
 @use "global" as *;
 
-.okami {}
-
 .okami__intro {
   text-align: center;
   margin-bottom: rem(72);
   font-size: rem(14);
+  @include mq(md) {
+      font-size: rem(18);
+  }
 }
 
 .okami__intro-fz19{
   font-size: rem(19);
+  @include mq(md) {
+      font-size: rem(22);
+  }
 }
 
 .okami__intro-fz16 {
   font-size: rem(16);
+  @include mq(md) {
+      font-size: rem(22);
+  }
 }
 
 
@@ -21,10 +28,14 @@
   background-image: url(../images/common/bg-okami.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  // padding-top: rem(46);
   padding-bottom: rem(52);
-  // position: relative;
-  // margin-bottom: rem(12);
+}
+
+.okami__content-wrapper{
+  @include mq(md) {
+      padding: 0 rem(20) rem(52);
+  }
+
 }
 
 .okami__title {
@@ -32,22 +43,28 @@
 }
 
 .okami__title-sub {
-  // width: rem(250);
   margin: 0 auto;
 }
+
 .okami__title-sub:first-of-type {
   width: rem(250);
   margin-bottom: rem(26);
-  // margin: 0 auto;
+  @include mq(md) {
+        width: rem(305);
+  }
 }
 .okami__title-sub:last-of-type {
   width: rem(280);
   margin-bottom: rem(37);
-  // margin: 0 auto;
+  @include mq(md) {
+      width: rem(350);
+      margin-bottom: rem(56);
+  }
 }
 
 .okami__image:first-of-type {
   margin-bottom: rem(42);
+
 }
 .okami__image:last-of-type {
   margin-bottom: rem(50);
@@ -57,6 +74,9 @@
   font-size: rem(14);
   margin-bottom: rem(26);
   line-height: 2;
+  @include mq(md) {
+      font-size: rem(18);
+  }
 }
 
 .okami__answer {
@@ -64,6 +84,10 @@
   margin-bottom: rem(52);
   line-height: 2;
   text-align: justify;
+    @include mq(md) {
+        font-size: rem(18);
+        margin-bottom: rem(72);
+      }
 }
 
 .okami__answer--mb82{
