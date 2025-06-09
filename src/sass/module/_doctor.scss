@@ -36,13 +36,13 @@
 }
 
 .doctor__box {
-  background-image: url(../images/common/silver.png);
+  background-image: url(../images/common/silver.webp);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: rem(4);
   padding-bottom: rem(10);
   @include mq(md) {
-  background-image: url(../images/common/silver-pc.jpg);
+  background-image: url(../images/common/silver-pc.webp);
   padding-top: rem(36);
   padding-bottom: rem(30);
   }
