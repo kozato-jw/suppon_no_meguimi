@@ -357,13 +357,10 @@ a {
 	margin-bottom: 2.5rem;
 }
 
-.bimajyo__image {
-	margin-bottom: 2rem;
-}
-
 .bimajyo__text-small {
 	font-size: 0.625rem;
 	line-height: 2.3;
+	margin-bottom: 2rem;
 	text-align: right;
 }
 
@@ -393,7 +390,6 @@ a {
 
 .close__text-fz19 {
 	font-size: 1.1875rem;
-	line-height: 1;
 }
 
 .close__text-fz16 {
@@ -439,7 +435,7 @@ a {
 }
 
 .doctor__box {
-	background-image: url(../images/common/silver.png);
+	background-image: url(../images/common/silver.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 0.625rem;
@@ -561,7 +557,7 @@ a {
 }
 
 .more__bg {
-	background-image: url(../images/common/gold.png);
+	background-image: url(../images/common/gold.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 0.75rem;
@@ -616,7 +612,7 @@ a {
 }
 
 .okami__inner {
-	background-image: url(../images/common/bg-okami.jpg);
+	background-image: url(../images/common/bg-okami.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 3.25rem;
@@ -705,7 +701,6 @@ a {
 
 .point__text-fz19 {
 	font-size: 1.1875rem;
-	line-height: 1;
 }
 
 .point__movie {
@@ -757,7 +752,7 @@ a {
 }
 
 .sns__bg {
-	background-image: url(../images/common/pink-background.png);
+	background-image: url(../images/common/pink-background.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-bottom: 0.5rem;
@@ -808,7 +803,7 @@ a {
 }
 
 .user__bg-pink {
-	background-image: url(../images/common/bg-user.jpg);
+	background-image: url(../images/common/bg-user.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 2.625rem;
@@ -955,7 +950,6 @@ a {
 
 .voice__text-fz19 {
 	font-size: 1.1875rem;
-	line-height: 1;
 }
 
 .voice__arrow {
@@ -1258,7 +1252,7 @@ html {
 }
 
 .doctor__box {
-	background-image: url(../images/common/silver-pc.jpg);
+	background-image: url(../images/common/silver-pc.webp);
 	padding-bottom: 1.875rem;
 	padding-top: 2.25rem;
 }

@@ -70,7 +70,7 @@
 
 .point__text-fz19{
   font-size: rem(19);
-  line-height: 1;
+  // line-height: 1;
   @include mq(md) {
       font-size: rem(22);
       line-height: 1.77;
