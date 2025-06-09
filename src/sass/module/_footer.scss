@@ -12,5 +12,7 @@
   letter-spacing: 0;
   text-align: center;
   display: block;
-  
+  @include mq(md) {
+      font-size: rem(14);
+  }
 }

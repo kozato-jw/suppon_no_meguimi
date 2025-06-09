@@ -1,12 +1,8 @@
 @use "global" as *;
 
-.point {}
-
 .point__title {
   margin-bottom: rem(39);
 }
-
-
 
 .point__intro {
   text-align: center;
@@ -15,19 +11,20 @@
 
 .point__intro-fz19{
   font-size: rem(19);
+  @include mq(md) {
+      font-size: rem(22);
+  }
 }
-
-
-
 
 .point__text-border {
   border-bottom: 1px solid $black;
 }
 
-
-
 .point__item {
   margin-bottom: rem(60);
+  @include mq(md) {
+      margin-bottom: rem(82);
+  }
 }
 
 .point__item--movie{
@@ -46,6 +43,10 @@
 .point__text-fz19{
   font-size: rem(19);
   line-height: 1;
+  @include mq(md) {
+      font-size: rem(22);
+      line-height: 1.77;
+  }
 }
 
 .point__movie {

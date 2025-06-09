@@ -1,8 +1,10 @@
 @use "global" as *;
 
 .container{
+  font-size: rem(16);
   @include mq(md) {
-      max-width: 630px;
+      max-width: 680px;
       margin: 0 auto;
+      font-size: rem(18);
   }
 }

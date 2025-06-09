@@ -2,16 +2,72 @@
 
 .article {
   background-color: #fef9e8;
-  border: 1px dashed #b3b3b3;
   padding: rem(32) rem(15) rem(52);
+  position: relative;
+  @include mq(md) {
+  padding: rem(48) rem(18) rem(52);
+  }
 }
 
-.article__inner {}
+// 点線上下
+.article::before,
+.article::after{
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  background:
+  linear-gradient(to right,
+    #b3b3b3 0%,
+    #b3b3b3 50%,
+    #ffffff 51%,
+    #ffffff 100%) repeat-x left bottom/12px 2px;
+}
+
+.article::before {
+  top: 0;
+}
+
+.article::after {
+  bottom: 0;
+}
+
+
+// 点線左右
+.article__inner::before,
+.article__inner::after{
+    content: "";
+      width: 2px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      background: 
+      linear-gradient(to bottom,
+        #B3B3B3 0%,
+        #b3b3b3 50%,
+        #ffffff 51%,
+        #ffffff 100%) repeat-y top left/2px 12px;
+}
+
+.article__inner::before{
+  left: 0;
+}
+.article__inner::after{
+  right: 0;
+}
+
+
 
 .article__main-title {
   font-size: rem(20);
   line-height: 1.7;
   margin-bottom: rem(26);
+  @include mq(md) {
+      font-size: rem(23);
+      line-height: 1.56;
+  margin-bottom: rem(62);
+  }
 }
 
 .article__sub-title{
@@ -25,6 +81,9 @@
 
 .article_text--mb20{
   margin-bottom: rem(20);
+  @include mq(md) {
+      margin-bottom: rem(45);
+  }
 }
 
 .article__movie{

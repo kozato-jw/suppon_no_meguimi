@@ -8,6 +8,9 @@
   // text-align: center;
   // color: #ffff64;
   margin-bottom: rem(24);
+  @include mq(md) {
+      margin-bottom: rem(12);
+  }
 
 }
 
@@ -28,6 +31,10 @@
 
 .what__image-record {
   margin-bottom: rem(28);
+  @include mq(md) {
+      width: rem(600);
+      margin: 0 auto rem(64);
+  }
 }
 
 .what__image-cosme {
@@ -38,4 +45,7 @@
   font-size: rem(10);
   text-align: right;
   letter-spacing: 0.12em;
+  @include mq(md) {
+      font-size: rem(12);
+  }
 }

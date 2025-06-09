@@ -2,19 +2,37 @@
 
 .doctor__title {
   margin-bottom: rem(28);
+  @include mq(md) {
+      margin-bottom: rem(52);
+  }
 }
 
 .doctor__text {
   text-align: center;
   margin-bottom: rem(54);
+  @include mq(md) {
+      margin-bottom: rem(72);
+  }
+}
+
+.doctor__text-fz22{
+  @include mq(md) {
+      font-size: rem(22);
+  }
 }
 
 .doctor__text-fz19{
   font-size: rem(19);
+  @include mq(md) {
+      font-size: rem(22);
+  }
 }
 
 .doctor__text-fz14{
   font-size: rem(14);
+  @include mq(md) {
+      font-size: rem(18);
+  }
 }
 
 .doctor__box {
@@ -25,6 +43,8 @@
   padding-bottom: rem(10);
   @include mq(md) {
   background-image: url(../images/common/silver-pc.jpg);
+  padding-top: rem(22);
+  padding-bottom: rem(30);
   }
 }
 
@@ -37,6 +57,10 @@
   font-weight: $medium;
   margin-bottom: rem(16);
   text-align: justify;
+  @include mq(md) {
+      font-size: rem(18);
+      margin-bottom: rem(74);
+  }
 }
 
 .doctor__review-purple {
@@ -48,6 +72,7 @@
   padding: rem(10) rem(10) rem(12);
   box-shadow: 3px 3px 3px 0px #0000004D;
   margin-bottom: rem(12);
+  padding: rem(20) rem(10) rem(26);
 }
 
 .doctor__prof-title {
@@ -60,15 +85,28 @@
   height: rem(24);
   padding: 0 rem(16);
   margin-bottom: rem(6);
+  @include mq(md) {
+      font-size: rem(18);
+      line-height: rem(31);
+      height: rem(31);
+      padding: 0 rem(20);
+  }
 }
 
 .doctor__prof-text {
   line-height: 2;
   font-size: rem(12);
+  @include mq(md) {
+      font-size: rem(16);
+  }
 }
 
 .doctor__small-text {
   font-size: rem(10);
   letter-spacing: 0;
   text-align: center;
+  @include mq(md) {
+      font-size: rem(12);
+      text-align: right;
+  }
 }

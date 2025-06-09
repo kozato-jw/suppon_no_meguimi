@@ -1,7 +1,4 @@
 @use "global" as *;
-
-.more {}
-
 .more__bg {
   background-image: url(../images/common/gold.png);
   background-repeat: no-repeat;
@@ -10,6 +7,11 @@
   padding-bottom: rem(28);
   position: relative;
   margin-bottom: rem(12);
+  @include mq(md) {
+        padding-top: rem(52);
+          padding-bottom: rem(44);
+          margin-bottom: 0;
+  }
 }
 
 .more__head {
@@ -17,7 +19,11 @@
   position: absolute;
   top: rem(-40);
   left: 50%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
+  @include mq(md) {
+      width: rem(80);
+      top:rem(-48);
+  }
 }
 
 .more__inner {
@@ -25,6 +31,9 @@
   border-radius: rem(10);
   padding-top: rem(38);
   padding-bottom: rem(22);
+  @include mq(md) {
+      padding-bottom: rem(34);
+  }
 }
 
 .more__text{
@@ -32,6 +41,9 @@
   line-height: 2;
   margin-bottom: rem(28);
   font-size: rem(14);
+  @include mq(md) {
+      font-size: rem(18);
+  }
 }
 
 // .more__text--fz14 {
@@ -40,9 +52,15 @@
 
 .more__text-fz16{
   font-size: rem(16);
+  @include mq(md) {
+      font-size: rem(22);
+  }
 }
 
 .more__image {
   width: 93%;
   margin: 0 auto;
+  @include mq(md) {
+      width: 74%;
+  }
 }

@@ -8,6 +8,9 @@
 .intro__text-fz19{
   font-size: rem(19);
   line-height: 1;
+  @include mq(md) {
+      font-size: rem(22);
+  }
 }
 
 .intro__text:last-of-type{
@@ -17,5 +20,7 @@
 .intro__arrow{
   width: rem(187);
   display: inline-block;
-  // margin-bottom: rem(48);
+  @include mq(md) {
+      width: rem(278);
+  }
 }
