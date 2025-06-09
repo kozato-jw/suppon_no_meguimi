@@ -43,6 +43,7 @@
   font-size: rem(14);
   @include mq(md) {
       font-size: rem(18);
+      line-height: 1.75;
   }
 }
 
@@ -62,5 +63,11 @@
   margin: 0 auto;
   @include mq(md) {
       width: 74%;
+  }
+}
+
+.more__image:last-of-type{
+  @include mq(md) {
+      width: 65%;
   }
 }

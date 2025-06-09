@@ -2,4 +2,7 @@
 
 .l-fv{
   margin-bottom: rem(30);
+  @include mq(md) {
+      margin-bottom: rem(72);
+  }
 }

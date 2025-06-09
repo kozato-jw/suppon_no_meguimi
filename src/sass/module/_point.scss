@@ -1,18 +1,36 @@
 @use "global" as *;
 
+.point .inner {
+  @include mq(md) {
+    padding: 0;
+  }
+}
+
 .point__title {
   margin-bottom: rem(39);
+  @include mq(md) {
+      margin-bottom: rem(27);
+  }
 }
 
 .point__intro {
   text-align: center;
   margin-bottom: rem(54);
+  @include mq(md) {
+      margin-bottom: rem(48);
+  }
 }
 
 .point__intro-fz19{
   font-size: rem(19);
   @include mq(md) {
       font-size: rem(22);
+  }
+}
+
+.point__text-fz19--pc{
+  @include mq(md) {
+      font-size: rem(18) !important;
   }
 }
 
@@ -27,12 +45,22 @@
   }
 }
 
+.point__item:last-of-type{
+  @include mq(md) {
+      margin-bottom: rem(116);
+  }
+}
+
 .point__item--movie{
   margin-bottom: rem(113);
 }
 
 .point__title-image {
   margin-bottom: rem(40);
+  // @include mq(md) {
+  //     margin-left: rem(-25);
+  //     margin-right: rem(-25);
+  // }
 }
 
 .point__text {
